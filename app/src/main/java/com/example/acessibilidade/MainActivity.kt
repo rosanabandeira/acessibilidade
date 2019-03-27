@@ -12,6 +12,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        var actionBar = supportActionBar
+        actionBar!!.setDisplayHomeAsUpEnabled(true)
 
     }
 }
